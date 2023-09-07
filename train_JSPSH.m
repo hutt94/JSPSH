@@ -56,9 +56,9 @@ function [B,XW,YW] = train_JSPSH(XTrain,YTrain,LTrain,NLTrain,LSet,param)
     
     for i = 1:max_iter
         XW = (XTrain'*XTrain+(lambda)*eye(dX))\(XTrain'*B+ mu*XTrain'*YTrain*YW +((XTrain'*NLTrain)*NLTrain(sel_idx,:)')*Bs*beta*nbits)...
-        /((lambda+mu) * eye(kdim)+Bs'*Bs*beta);
+        /((1+mu) * eye(kdim)+Bs'*Bs*beta);
         YW = (YTrain'*YTrain+lambda*eye(dY))\(YTrain'*B+ mu*YTrain'*XTrain*XW +((YTrain'*NLTrain)*NLTrain(sel_idx,:)')*Bs*beta*nbits)...
-        /((lambda+mu) * eye(kdim)+Bs'*Bs*beta);
+        /((1+mu) * eye(kdim)+Bs'*Bs*beta);
     end
 
 end
