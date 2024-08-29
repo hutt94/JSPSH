@@ -15,7 +15,10 @@ If you find JSPSH useful in your research, please consider citing:
   title={Joint Semantic Preserving Sparse Hashing for Cross-Modal Retrieval},
   author={Hu, Zhikai and Cheung, Yiu-ming and Li, Mengke and Lan, Weichao and Zhang, Donglin and Liu, Qiang},
   journal={IEEE Transactions on Circuits and Systems for Video Technology},
-  year={2023},
+  year={2024},
+  volume={34},
+  number={4},
+  pages={2989-3002},
   doi={10.1109/TCSVT.2023.3307608},
   publisher={IEEE}
 }
