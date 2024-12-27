@@ -1,5 +1,5 @@
 # JSPSH
-Source code for TCSVT paper ["Joint Semantic Preserving Sparse Hashing for Cross-Modal Retrieval"](https://ieeexplore.ieee.org/abstract/document/10226248)
+Source code for TCSVT'23 paper ["Joint Semantic Preserving Sparse Hashing for Cross-Modal Retrieval"](https://ieeexplore.ieee.org/abstract/document/10226248)
 
 ## Datasets
 Please refer to the provided [link](https://github.com/yxinwang/HSCH-TCSVT) to download the dataset, and kindly place it in the designated "datasets" folder.
