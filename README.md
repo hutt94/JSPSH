@@ -1,7 +1,7 @@
 # JSPSH
 Source code for TCSVT'23 paper ["Joint Semantic Preserving Sparse Hashing for Cross-Modal Retrieval"](https://ieeexplore.ieee.org/abstract/document/10226248)
 
-Related Works on CMH:
+Related Works on CMH (Paper & Code):
 - [[TPAMI'24] Cross-Modal Hashing Method with Properties of Hamming Space: A New Perspective](https://github.com/hutt94/SCH)
 - [[ICASSP'24] Key Points Centered Sparse Hashing for Cross-Modal Retrieval](https://github.com/hutt94/KPCSH)
 - [[ICMR'19] Triplet Fusion Network Hashing for Unpaired Cross-Modal Retrieval](https://github.com/hutt94/TFNH)
